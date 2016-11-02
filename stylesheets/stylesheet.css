@@ -94,7 +94,8 @@ h6 {
 }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 10px 20px 15px;
+  width: 72%;
 }
 
 footer p {
@@ -137,7 +138,7 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
@@ -267,7 +268,7 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 1200px;
-  padding: 50px 100px;
+  padding: 150px 100px;
   margin: 0 auto;
 }
 
@@ -277,13 +278,37 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 50px 10px 20px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 150%;
+    margin-left: 0px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 #header_wrap {
@@ -296,13 +321,13 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 20px 10px 20px 30px;
 }
 
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
