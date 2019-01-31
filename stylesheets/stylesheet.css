@@ -293,7 +293,7 @@ Full-Width Styles
 }
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 225px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -303,8 +303,9 @@ Full-Width Styles
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: -5px;
-    left: 150%;
+    font-size: 20px;
+    top: 0px;
+    left: 110%;
     margin-left: 0px;
 }
 .tooltip:hover .tooltiptext {
